@@ -1,0 +1,6 @@
+What happens when you intialize a repository?Why do you need to do it?
+Initializing repository is important because after that only we can use version control on that folder like git and they only we can use important feature of version control like comparing file and other feature.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area give us more flexibility and control in making a commit and give us a intermediate space before making commit and once we made a commit we can't undo it thats where staging area is useful.And once we make a repository its empty before we make a commit.
+
