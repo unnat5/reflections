@@ -1,0 +1,27 @@
+How did viewing a diff between two vesion helps you to spot the bug?
+It's difficult go through all the lines in the file to find the bug so diff command helps us to do so by diff -u old_File new_File will give all the changes made in the files -ve sign in front of a line means it has been reomoved in new version and +ve sign menans new a new line has been added to the file.
+
+How could having easy access to the entire history of a file make youa more efficient programmer in the long term?
+I feel having an easy access to my entire history of a file or project will help me to grow and will give me an oppurtunity to reflect at my work and how my project is budding upto and what were intial assumptions and how my idea ivolved!!
+
+ What do you think are the pros and cons of manually choosing when to commit, like you do in Git, vshaving version automatically saved, like Google docs does?
+ Pros:
+ Manually choosing when to commit have a upper hand then autoamtically because every project is not same amount of time for making something logical change differ so automatic commit wont work it will take up memory space or would make large commits to optimise it with automatic process is difficult but manually making would be more logical and efficient
+ Cons:
+ It will add to work effort 
+ WE can even forget to make any commit in in manual method which will be a problem and thus automatic would have upper hand!
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I feel other version controls were not build specificly for programmer they were build for genral purpose editing and keeping diffrent version of same docs for better mangement of same file and in other hand git was build keeping in mind one cahnge in file would maybe result in multiple changes in other file so in git we can commit in multiple file in same repository.
+
+How could we use git log and git diff to view the history of file?
+we could use git log to get all the version of file with on the top most recent one and with the version we are intrested we could use its id and compare it other version and find how many changes were made(compare with git diff) and other way is with git log --stat
+
+How might using version control make you more confident to make changes that could break something?
+I feel now version control in a tool I can make any change and can easily revert it back if something bad happens I feel I am insured!
+
+Now that you have your workspace set up, what do you want to try git for?
+I really don't know!!
+
+
+
