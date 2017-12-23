@@ -4,3 +4,16 @@ Initializing repository is important because after that only we can use version 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area give us more flexibility and control in making a commit and give us a intermediate space before making commit and once we made a commit we can't undo it thats where staging area is useful.And once we make a repository its empty before we make a commit.
 
+How can you staging area to make sure you have one commit per logical change?
+Staging area gives us the platform or freedom to make sure there is one logical change per one commit because after making change we can put them in staging area then will commit them as per the requirement if we made any mistake in staging area we can undo it by git reset command its kind of flexible and we can find difference between staging area and repository before commiting by the help of command git diff --staged and can also find difference between working directory and staging area by (if any cahnges are made between them by) git diff!!
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful when we want to try out same extra feature or some expermental cahnges without affecting our main project or in other word our master branch, then we create a sub branch try out our ideas without affecting our main project, this is helpful in keeping our history organized.
+
+How do the diagram helps you to visualize the branch structure?
+Diagram helps in looking and gettting an idea about branches because branches can be non linear so diagram helps to have an idea about connection and reachability.
+
+What is the result of merging two branches together?Why do we represent them in diagram the way we do it?
+Basically we create baranch to try out things without affecting the main project and once we feel our new exprimental project succeded its purpose and feel it should be part of main project then we merge it with the main branch and if we had created more commit after our branch was intiated then the sequence of branch is according to the time stamp and once our branches are non linear then visualization is really helpful and help us to understand our commit history.
+
+What pros and cons of Git's auto merging vs always doing merging manually?
